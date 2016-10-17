@@ -1,0 +1,27 @@
+<!document htm>
+<html>
+<head>
+    </head>
+    <script type="text/javascript">
+    function myfun(){
+        var okcancel;
+        var con= confirm("press button");
+        if (con==true){
+        okcancel="you press ok";
+        
+        }else{
+        
+        okcancel="you press cncel";
+        }
+        
+       document.getElementById('demo').innerHTML=okcancel;           }
+    
+    </script>
+<body>
+      <button onclick="myfun()">Click me</button>
+    <p id="demo"></p>
+    
+    
+    </body>
+
+</html>
